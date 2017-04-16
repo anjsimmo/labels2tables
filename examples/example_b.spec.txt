@@ -1,0 +1,14 @@
+====
+colA
+====
+Y   
+N   
+====
+
+{
+  'cols': ['colA'],
+  'data': [
+    {'colA': True},
+    {'colA': False},
+  ]
+}

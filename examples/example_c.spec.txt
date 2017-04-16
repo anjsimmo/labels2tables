@@ -1,0 +1,16 @@
+========================
+     Fruit        Sweet 
+     ------------ ------
+Rice Apple Banana - Cake
+========================
+Y    Y     Y      Y Y   
+     N     Y      Y N   
+========================
+
+{
+  'cols': ['Rice', ('Fruit', ['Apple', 'Banana']), ('Sweet', [None, 'Cake'])],
+  'data': [
+    {'Rice': True, ('Fruit', 'Apple'): True, ('Fruit', 'Banana'): True, 'Sweet': True, ('Sweet', 'Cake'): True},
+    {'Rice': True, ('Fruit', 'Apple'): False, ('Fruit', 'Banana'): True, 'Sweet': True, ('Sweet', 'Cake'): False}
+  ]
+}

@@ -1,0 +1,23 @@
+=========
+colA colB
+=========
+-    2   
+A        
+ -   2   
+ A.B 2   
+     2   
+ A.C 2   
+B    2   
+=========
+
+{
+  'cols': ['colA', 'colB'],
+  'data': [
+    {'colA': [], 'colB': 2},
+    {'colA': ['A'], 'colB': 2},
+    {'colA': ['A', 'A.B'], 'colB': 2},
+    {'colA': ['A', 'A.B'], 'colB': 2},
+    {'colA': ['A', 'A.C'], 'colB': 2},
+    {'colA': ['B'], 'colB': 2},
+  ]
+}

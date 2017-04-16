@@ -1,0 +1,41 @@
+====================================
+      X                             
+      -----------                   
+      A           R                 
+      ---------   --                
+Col 1 - A.B A.C B R  Author     Date
+====================================
+A                                   
+ A.B  1 D   Y   Y R1 Jim et al. 2001
+                  R4 Jim et al. 2001
+                                2001
+      2 C                           
+         -  Y   Y R5 Jim et al. 2001
+ A.C  3 C                           
+         -  Y   Y R5 Jim et al. 2001
+         D  N   N R3 Bell, Li   1924
+                Y R4 Bell, Li   1925
+        D   N   Y R5 Bell       1924
+                     Tesla      1924
+      5 -   N   Y R6 Tesla      1424
+ A.D  5 -   N   Y R7 Golf       1424
+B     6 -   Y   N R8 Helix      2013
+====================================
+
+{
+  'cols': ['Col 1', ('X', [('A', [None, 'A.B', 'A.C']), 'B']), ('R', ['R']), 'Author', 'Date'],
+  'data': [
+    {'Col 1': ['A', 'A.B'], ('X', 'A'): 1, ('X', 'A', 'A.B'): ['D'], ('X', 'A', 'A.C'): True, ('X', 'B'): True, ('R', 'R'): 'R1', 'Author': 'Jim et al.', 'Date': 2001},
+    {'Col 1': ['A', 'A.B'], ('X', 'A'): 1, ('X', 'A', 'A.B'): ['D'], ('X', 'A', 'A.C'): True, ('X', 'B'): True, ('R', 'R'): 'R4', 'Author': 'Jim et al.', 'Date': 2001},
+    {'Col 1': ['A', 'A.B'], ('X', 'A'): 1, ('X', 'A', 'A.B'): ['D'], ('X', 'A', 'A.C'): True, ('X', 'B'): True, ('R', 'R'): 'R4', 'Author': 'Jim et al.', 'Date': 2001},
+    {'Col 1': ['A', 'A.B'], ('X', 'A'): 2, ('X', 'A', 'A.B'): ['C'], ('X', 'A', 'A.C'): True, ('X', 'B'): True, ('R', 'R'): 'R5', 'Author': 'Jim et al.', 'Date': 2001},
+    {'Col 1': ['A', 'A.C'], ('X', 'A'): 3, ('X', 'A', 'A.B'): ['C'], ('X', 'A', 'A.C'): True, ('X', 'B'): True, ('R', 'R'): 'R5', 'Author': 'Jim et al.', 'Date': 2001},
+    {'Col 1': ['A', 'A.C'], ('X', 'A'): 3, ('X', 'A', 'A.B'): ['C', 'D'], ('R', 'R'): 'R3', 'Author': 'Bell, Li', 'Date': 1924},
+    {'Col 1': ['A', 'A.C'], ('X', 'A'): 3, ('X', 'A', 'A.B'): ['C', 'D'], ('X', 'B'): True, ('R', 'R'): 'R4', 'Author': 'Bell, Li', 'Date': 1925},
+    {'Col 1': ['A', 'A.C'], ('X', 'A'): 3, ('X', 'A', 'A.B'): ['D'], ('X', 'B'): True, ('R', 'R'): 'R5', 'Author': 'Bell', 'Date': 1924},
+    {'Col 1': ['A', 'A.C'], ('X', 'A'): 3, ('X', 'A', 'A.B'): ['D'], ('X', 'B'): True, ('R', 'R'): 'R5', 'Author': 'Tesla', 'Date': 1924},
+    {'Col 1': ['A', 'A.C'], ('X', 'A'): 5, ('X', 'B'): True, ('R', 'R'): 'R6', 'Author': 'Tesla', 'Date': 1424},
+    {'Col 1': ['A', 'A.D'], ('X', 'A'): 5, ('X', 'B'): True, ('R', 'R'): 'R7', 'Author': 'Golf', 'Date': 1424},
+    {'Col 1': ['B'], ('X', 'A'): 6, ('X', 'A', 'A.C'): True, ('R', 'R'): 'R8', 'Author': 'Helix', 'Date': 2013},
+  ]
+}

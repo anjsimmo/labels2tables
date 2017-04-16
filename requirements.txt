@@ -1,0 +1,2 @@
+bibtexparser==0.6.2
+enum34==1.1.6

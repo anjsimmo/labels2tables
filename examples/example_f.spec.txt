@@ -1,0 +1,15 @@
+========================
+colA colB colC colD colE
+========================
+Y    N    N    N    bob
+          Y    N    -
+========================
+
+{
+  'cols': ['colA', 'colB', 'colC', 'colD', 'colE'],
+  'types': ['bool', 'bool', 'bool', 'bool', 'str'],
+  'data': [
+    {'colA': True, 'colB': False, 'colE': 'bob'},
+    {'colA': True, 'colC': True}
+  ]
+}

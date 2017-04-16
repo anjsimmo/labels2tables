@@ -1,0 +1,8 @@
+========================================================
+game       model       open-access reference            
+========================================================
+soccer     network                                      
+            centrality Y           duch_quantifying_2010
+            scale-free Y           yamamoto_common_2011 
+basketball sequence    Y           yaari_hot_2011       
+========================================================
